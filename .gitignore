@@ -1,0 +1,17 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+!*.tfvars.example
+plan.json
+plan-metadata.json
+whatif.json
+terraform-test-events.jsonl
+infra/bootstrap/imports.generated.tf
+node_modules/
+__pycache__/
+# local Python environments and OS noise
+.venv*/
+venv/
+.DS_Store

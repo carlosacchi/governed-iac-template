@@ -1,0 +1,12 @@
+subscription_id      = "00000000-0000-0000-0000-000000000001"
+backend_storage_name = "REPLACE_WITH_UNIQUE_NAME"
+
+# Repository part of the real OIDC subject (see the "Inspect OIDC subject" workflow).
+# The bootstrap derives ":ref:refs/heads/main" for plan and ":environment:<tenant>" for apply.
+github_oidc_subject_prefix = "repo:OWNER@OWNER_ID/REPO@REPO_ID"
+
+# Optional: defaults are contoso-iac-sales and contoso-iac-operations. Only dedicated contoso-* groups are accepted.
+# tenants = {
+#   sales      = { resource_group_name = "contoso-iac-sales" }
+#   operations = { resource_group_name = "contoso-iac-operations" }
+# }

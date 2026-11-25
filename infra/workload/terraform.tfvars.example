@@ -1,0 +1,7 @@
+subscription_id      = "00000000-0000-0000-0000-000000000001"
+team                 = "sales"
+resource_group_name  = "contoso-iac-sales"
+storage_account_name = "REPLACE_WITH_UNIQUE_NAME"
+cost_center          = "CONTOSO-SALES"
+owner                = "platform-team"
+service_label        = "sales-storage"
